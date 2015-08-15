@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Project" >
+
+    <TextView
+        android:id = "@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title" />
+    <LinearLayout
+        android:id="@+id/commentTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <EditText 
+        android:id="@+id/edit"
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:layout_height="wrap_content"
+        android:hint="@string/write"
+        />
+    <Button 
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:hint="@string/post"
+         android:onClick="postComment"
+         />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/pendingTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+     <TextView
+        android:id = "@+id/pending"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="@string/pending" />
+     <Button 
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:hint="@string/more"
+         android:onClick="featureSortPage"
+         />
+     </LinearLayout>
+     <LinearLayout
+         android:id="@+id/pendingFeatues"
+         android:orientation="horizontal"
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         >
+     </LinearLayout>
+     <LinearLayout
+        android:id="@+id/approvedTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+     <TextView
+        android:id = "@+id/approved"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:text="@string/approved" />
+     <Button 
+         android:layout_width="0dp"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:hint="@string/more"
+         android:onClick="approvedFeatures"
+         />
+     </LinearLayout>
+     <LinearLayout
+         android:id = "@+id/aprrovedFeatues"
+         android:orientation="horizontal"
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         >
+     </LinearLayout>
+
+</LinearLayout>

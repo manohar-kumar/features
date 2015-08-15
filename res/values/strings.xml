@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Features</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="register">Sign Up</string>
+    <string name="emailid">Email</string>
+    <string name="retype">Retype password</string>
+    <string name="title_activity_project_page">ProjectPage</string>
+    <string name="title_activity_project">Project</string>
+    <string name="title">Title</string>
+    <string name="write">POST FEATURE</string>
+    <string name="pending">PENDING</string>
+    <string name="more">More</string>
+    <string name="approved">APPROVED</string>
+    <string name="post">POST</string>
+    <string name="title_activity_more_tab">MoreTab</string>
+    <string name="title_activity_feature_page">FeaturePage</string>
+    <string name="like">Like</string>
+    <string name="postComment">POST COMMENT</string>
+    <string name="disLike">DisLike</string>
+
+</resources>
